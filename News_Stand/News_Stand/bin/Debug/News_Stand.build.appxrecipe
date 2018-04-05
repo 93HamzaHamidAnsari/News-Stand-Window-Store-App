@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANSARI</Machine>
+    <WindowsUser>hamza</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\News_Stand.exe">
+      <PackagePath>News_Stand.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\News_Stand.pdb">
+      <PackagePath>News_Stand.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\africa.jpg">
+      <PackagePath>Assets\africa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\arab.jpg">
+      <PackagePath>Assets\arab.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\article.jpg">
+      <PackagePath>Assets\article.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\asia.jpg">
+      <PackagePath>Assets\asia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\bbc_health.jpg">
+      <PackagePath>Assets\bbc_health.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\break.jpg">
+      <PackagePath>Assets\break.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\breaking.jpg">
+      <PackagePath>Assets\breaking.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\cri.jpg">
+      <PackagePath>Assets\cri.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\crick.jpg">
+      <PackagePath>Assets\crick.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\cricket.jpg">
+      <PackagePath>Assets\cricket.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\dres.jpg">
+      <PackagePath>Assets\dres.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\edu.jpg">
+      <PackagePath>Assets\edu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\ent.jpg">
+      <PackagePath>Assets\ent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\entrt.jpg">
+      <PackagePath>Assets\entrt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\europe.jpg">
+      <PackagePath>Assets\europe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\f1.jpg">
+      <PackagePath>Assets\f1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\facts.jpg">
+      <PackagePath>Assets\facts.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fas.jpg">
+      <PackagePath>Assets\fas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fashion-and-beauty.jpg">
+      <PackagePath>Assets\fashion-and-beauty.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fashion.jpg">
+      <PackagePath>Assets\fashion.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fasio.jpg">
+      <PackagePath>Assets\fasio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\foot.jpg">
+      <PackagePath>Assets\foot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fotbal.jpg">
+      <PackagePath>Assets\fotbal.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\general_hairs.jpg">
+      <PackagePath>Assets\general_hairs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\global.jpg">
+      <PackagePath>Assets\global.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\americas.jpg">
+      <PackagePath>Assets\americas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\globe.jpg">
+      <PackagePath>Assets\globe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\golf.jpg">
+      <PackagePath>Assets\golf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\gulf.jpg">
+      <PackagePath>Assets\gulf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\hair.jpg">
+      <PackagePath>Assets\hair.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\health.jpg">
+      <PackagePath>Assets\health.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\hol.jpg">
+      <PackagePath>Assets\hol.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\holly.jpg">
+      <PackagePath>Assets\holly.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\hollywood.jpg">
+      <PackagePath>Assets\hollywood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\islamabad.jpg">
+      <PackagePath>Assets\islamabad.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\karachi.jpg">
+      <PackagePath>Assets\karachi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\lahore.jpg">
+      <PackagePath>Assets\lahore.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\latest_movie_news.jpg">
+      <PackagePath>Assets\latest_movie_news.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\log.jpg">
+      <PackagePath>Assets\log.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\logg.jpg">
+      <PackagePath>Assets\logg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\business.jpg">
+      <PackagePath>Assets\business.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\medium_tile.jpg">
+      <PackagePath>Assets\medium_tile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\men_hairs.jpg">
+      <PackagePath>Assets\men_hairs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\money.jpg">
+      <PackagePath>Assets\money.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\national.jpg">
+      <PackagePath>Assets\national.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\nationall.jpg">
+      <PackagePath>Assets\nationall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\nba.jpg">
+      <PackagePath>Assets\nba.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\newspaper.jpg">
+      <PackagePath>Assets\newspaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\newz.jpg">
+      <PackagePath>Assets\newz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\new_york_times_health.jpg">
+      <PackagePath>Assets\new_york_times_health.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\nhl.jpg">
+      <PackagePath>Assets\nhl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\pakistan.jpg">
+      <PackagePath>Assets\pakistan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\peshawar.jpg">
+      <PackagePath>Assets\peshawar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\preview.jpg">
+      <PackagePath>Assets\preview.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\release.jpg">
+      <PackagePath>Assets\release.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\review.jpg">
+      <PackagePath>Assets\review.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\rugby.jpg">
+      <PackagePath>Assets\rugby.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\Rugby_league.jpg">
+      <PackagePath>Assets\Rugby_league.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\shoes.jpg">
+      <PackagePath>Assets\shoes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\snooker.jpg">
+      <PackagePath>Assets\snooker.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\space.jpg">
+      <PackagePath>Assets\space.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\spor.jpg">
+      <PackagePath>Assets\spor.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\sport.jpg">
+      <PackagePath>Assets\sport.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\tech.jpg">
+      <PackagePath>Assets\tech.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\tenn.jpg">
+      <PackagePath>Assets\tenn.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\tennis.jpg">
+      <PackagePath>Assets\tennis.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\top.jpg">
+      <PackagePath>Assets\top.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\topi.jpg">
+      <PackagePath>Assets\topi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\topst.jpg">
+      <PackagePath>Assets\topst.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\uk.jpg">
+      <PackagePath>Assets\uk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\us.jpg">
+      <PackagePath>Assets\us.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\we-icon.jpg">
+      <PackagePath>Assets\we-icon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\weat.jpg">
+      <PackagePath>Assets\weat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\weath.jpg">
+      <PackagePath>Assets\weath.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\wide_tiles.jpg">
+      <PackagePath>Assets\wide_tiles.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\world.jpg">
+      <PackagePath>Assets\world.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\w_back.jpg">
+      <PackagePath>Assets\w_back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\x2.jpg">
+      <PackagePath>Assets\x2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\backg %281%29.png">
+      <PackagePath>Assets\backg %281%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\live_score.png">
+      <PackagePath>Assets\live_score.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\logss.png">
+      <PackagePath>Assets\logss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\mlb.png">
+      <PackagePath>Assets\mlb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\new.png">
+      <PackagePath>Assets\new.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\splash.png">
+      <PackagePath>Assets\splash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\entertainment.xaml">
+      <PackagePath>entertainment.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\fact.xaml">
+      <PackagePath>fact.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\global.xaml">
+      <PackagePath>global.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\health.xaml">
+      <PackagePath>health.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\national.xaml">
+      <PackagePath>national.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\national_rss.xaml">
+      <PackagePath>national_rss.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\news_stand.xaml">
+      <PackagePath>news_stand.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\sports.xaml">
+      <PackagePath>sports.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\weather.xaml">
+      <PackagePath>weather.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

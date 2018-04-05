@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="News_Stand.national"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:News_Stand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.Resources>
+		<Storyboard x:Name="national_storyboard">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="national_grid1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="national_grid2">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="national_grid3">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Page.Resources>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Margin="-9,0,-10,0">
+                <Button x:ConnectionId='1'  Style="{StaticResource PreviousAppBarButtonStyle}"               Height="67" />
+                <Button x:ConnectionId='2'  Style="{StaticResource HomeAppBarButtonStyle}"               Margin="75,-68,0,15" Height="67"/>
+
+                <Button x:ConnectionId='3'  Style="{StaticResource NextAppBarButtonStyle}"               Margin="145,-83,0,15" Height="64"/>
+                <Button x:ConnectionId='4'  Style="{StaticResource OutAppBarButtonStyle}"               Margin="215,-80,0,15" Height="65" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+        <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:ConnectionId='5' Source="Assets/backg (1).png" Stretch="UniformToFill"                                              />
+        <TextBlock HorizontalAlignment="Left" Margin="19,10,0,0" TextWrapping="Wrap" Text="National News" VerticalAlignment="Top" Height="85" Width="555" FontFamily="Rockwell Extra Bold" FontSize="72" Foreground="#FFF16B0F" FontWeight="Bold"/>
+        <GridView x:ConnectionId='6' x:Name="national_grid1" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="508" Height="307"               ItemsSource="{Binding}"                                >
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Width="490" Height="300" Source="{Binding Path=image}" Stretch="Fill"/>
+                        <TextBlock Height="150" Width="170" Text="{Binding desc}" FontFamily="Segoe UI Black" Foreground="#FFF02F10" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <GridView x:ConnectionId='7' x:Name="national_grid2" HorizontalAlignment="Left" Margin="10,456,0,-26" VerticalAlignment="Top" Width="508" Height="338" ItemsSource="{Binding}"                                                 >
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Width="157" Height="170" Source="{Binding Path=image}" Stretch="Fill"/>
+                        <TextBlock Height="40" Width="140" Text="{Binding desc}" FontFamily="Segoe UI Black" Foreground="#FFF02F10" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <GridView x:ConnectionId='8' x:Name="national_grid3" HorizontalAlignment="Left" Margin="523,144,0,-39" VerticalAlignment="Top" Width="604" Height="663" ItemsSource="{Binding}"                                                 >
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Width="150" Height="215" Source="{Binding Path=image}" Stretch="Fill"/>
+                        <TextBlock Height="40" Width="115" Text="{Binding desc}" FontFamily="Segoe UI Black" Foreground="#FFF02F10" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <TextBlock HorizontalAlignment="Left" Margin="19,114,0,0" TextWrapping="Wrap" Text="Breaking News" VerticalAlignment="Top" Width="145" Height="30" FontSize="20" FontFamily="Segoe UI Black" FontWeight="Bold" RenderTransformOrigin="0.524,0.971" Foreground="#FFF02F10"/>
+        <Image HorizontalAlignment="Left" Height="146" Margin="523,-37,0,0" VerticalAlignment="Top" Width="601" Source="Assets/logss.png" Stretch="UniformToFill"/>
+    </Grid>
+</Page>
+

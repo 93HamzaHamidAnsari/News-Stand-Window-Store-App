@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="News_Stand.weather"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:News_Stand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Height="104" Margin="-19,0,-10,0">
+                <Button  Style="{StaticResource PreviousAppBarButtonStyle}" Click="backs" Height="67" />
+                <Button  Style="{StaticResource HomeAppBarButtonStyle}" Click="homes" Margin="75,-68,0,15" Height="67"/>
+
+                <Button  Style="{StaticResource NextAppBarButtonStyle}" Margin="145,-83,0,15" Height="64"/>
+                <Button  Style="{StaticResource OutAppBarButtonStyle}" Click="exits" Margin="215,-80,0,15" Height="65" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/w_back.jpg" Stretch="UniformToFill" PointerPressed="searching"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="Weather Forecast" VerticalAlignment="Top" Height="86" Width="571" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,212,0,0" TextWrapping="Wrap" Text="Enter Your Country Name" VerticalAlignment="Top" Height="61" Width="458" FontSize="36"/>
+        <TextBox x:Name="country" HorizontalAlignment="Left" Margin="504,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="511" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,365,0,0" TextWrapping="Wrap" Text="Search Your Cities" VerticalAlignment="Top" Height="58" Width="403" FontSize="36"/>
+        <ComboBox x:Name="com_cities" HorizontalAlignment="Left" Margin="504,365,0,0" VerticalAlignment="Top" Width="511" Height="58" ItemsSource="{Binding}" FontSize="36" SelectionChanged="when_select" Background="#CCFCFDF9">
+            <ComboBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF633F3F" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Foreground>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="24,510,0,0" TextWrapping="Wrap" Text="Temperature" VerticalAlignment="Top" Height="65" Width="288" FontSize="36"/>
+        <TextBlock x:Name="temp" HorizontalAlignment="Left" Margin="504,510,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="511" FontSize="48" FontWeight="Bold"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="935,273,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_1"/>
+        <Image HorizontalAlignment="Left" Height="142" Margin="586,0,0,0" VerticalAlignment="Top" Width="598" Source="Assets/logss.png" Stretch="UniformToFill"/>
+    </Grid>
+</Page>

@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="News_Stand.national_rss"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:News_Stand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Margin="-10,0,-10,124">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF060606" Offset="1"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <Button x:Name="back" Style="{StaticResource PreviousAppBarButtonStyle}" Click="backs" Height="67" />
+                <Button x:Name="home" Style="{StaticResource HomeAppBarButtonStyle}" Click="homes" Margin="75,-68,0,15" Height="67"/>
+
+                <Button x:Name="next" Style="{StaticResource NextAppBarButtonStyle}" Click="nexts" Margin="145,-83,0,15" Height="64"/>
+                <Button x:Name="exit" Style="{StaticResource OutAppBarButtonStyle}" Click="exits" Margin="215,-80,0,15" Height="65" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}" PointerPressed="searching">
+        <Image Source="Assets/backg (1).png" Stretch="UniformToFill"/>
+        <ListView x:Name="list" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="366" ItemsSource="{Binding}" Loaded="open" SelectionChanged="when_select">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding title}" FontSize="24" Margin="5,0,0,0" TextWrapping="Wrap"/>
+                        <TextBlock Text="{Binding author}" FontSize="16" Margin="15,0,0,0" TextWrapping="Wrap"/>
+                        <TextBlock Text="{Binding pubdate}" FontSize="16" Margin="15,0,0,0" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <GridView HorizontalAlignment="Left" Margin="366,0,0,0" VerticalAlignment="Top" Width="1000" Height="768">
+            <WebView x:Name="web" Height="758" Width="990"/>
+        </GridView>
+
+
+    </Grid>
+</Page>

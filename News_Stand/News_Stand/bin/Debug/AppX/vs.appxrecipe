@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANSARI</Machine>
+    <WindowsUser>hamza</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8D3BD9B838C4D49A4DCFCABDE9A976225C1293EE5704E75CE82505B3CA0895F3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>eeec901c-a634-414d-9bc2-8a49d7fa616a_1.0.0.0_neutral__2kcprz131q78y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>eeec901c-a634-414d-9bc2-8a49d7fa616a_2kcprz131q78y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>eeec901c-a634-414d-9bc2-8a49d7fa616a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=hamza</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-09T11:54:47.071</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\News_Stand.exe">
+      <PackagePath>News_Stand.exe</PackagePath>
+      <Modified>2015-10-09T09:16:55.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\News_Stand.pdb">
+      <PackagePath>News_Stand.pdb</PackagePath>
+      <Modified>2015-10-09T09:16:55.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\africa.jpg">
+      <PackagePath>Assets\africa.jpg</PackagePath>
+      <Modified>2015-09-28T00:57:13.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\arab.jpg">
+      <PackagePath>Assets\arab.jpg</PackagePath>
+      <Modified>2015-10-08T21:58:34.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\article.jpg">
+      <PackagePath>Assets\article.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\asia.jpg">
+      <PackagePath>Assets\asia.jpg</PackagePath>
+      <Modified>2015-09-28T00:57:13.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\bbc_health.jpg">
+      <PackagePath>Assets\bbc_health.jpg</PackagePath>
+      <Modified>2015-10-07T19:44:35.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\break.jpg">
+      <PackagePath>Assets\break.jpg</PackagePath>
+      <Modified>2015-10-08T19:25:09.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\breaking.jpg">
+      <PackagePath>Assets\breaking.jpg</PackagePath>
+      <Modified>2015-09-28T00:41:03.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\cri.jpg">
+      <PackagePath>Assets\cri.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:16.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\crick.jpg">
+      <PackagePath>Assets\crick.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:16.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\cricket.jpg">
+      <PackagePath>Assets\cricket.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\dres.jpg">
+      <PackagePath>Assets\dres.jpg</PackagePath>
+      <Modified>2015-10-08T19:58:37.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\edu.jpg">
+      <PackagePath>Assets\edu.jpg</PackagePath>
+      <Modified>2015-10-07T17:27:35.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\ent.jpg">
+      <PackagePath>Assets\ent.jpg</PackagePath>
+      <Modified>2015-10-07T17:20:30.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\entrt.jpg">
+      <PackagePath>Assets\entrt.jpg</PackagePath>
+      <Modified>2015-10-08T20:11:08.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\europe.jpg">
+      <PackagePath>Assets\europe.jpg</PackagePath>
+      <Modified>2015-09-28T00:57:13.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\f1.jpg">
+      <PackagePath>Assets\f1.jpg</PackagePath>
+      <Modified>2015-10-07T19:05:48.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\facts.jpg">
+      <PackagePath>Assets\facts.jpg</PackagePath>
+      <Modified>2015-09-28T00:10:17.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fas.jpg">
+      <PackagePath>Assets\fas.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:02.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fashion-and-beauty.jpg">
+      <PackagePath>Assets\fashion-and-beauty.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:03.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fashion.jpg">
+      <PackagePath>Assets\fashion.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:02.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fasio.jpg">
+      <PackagePath>Assets\fasio.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:03.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\foot.jpg">
+      <PackagePath>Assets\foot.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:16.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\fotbal.jpg">
+      <PackagePath>Assets\fotbal.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:17.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\general_hairs.jpg">
+      <PackagePath>Assets\general_hairs.jpg</PackagePath>
+      <Modified>2015-10-08T19:52:01.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\global.jpg">
+      <PackagePath>Assets\global.jpg</PackagePath>
+      <Modified>2015-09-28T01:05:44.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\americas.jpg">
+      <PackagePath>Assets\americas.jpg</PackagePath>
+      <Modified>2015-09-28T00:57:13.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\globe.jpg">
+      <PackagePath>Assets\globe.jpg</PackagePath>
+      <Modified>2015-10-07T17:50:06.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\golf.jpg">
+      <PackagePath>Assets\golf.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:18.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\gulf.jpg">
+      <PackagePath>Assets\gulf.jpg</PackagePath>
+      <Modified>2015-10-08T21:58:34.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\hair.jpg">
+      <PackagePath>Assets\hair.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:03.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\health.jpg">
+      <PackagePath>Assets\health.jpg</PackagePath>
+      <Modified>2015-09-28T00:16:32.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\hol.jpg">
+      <PackagePath>Assets\hol.jpg</PackagePath>
+      <Modified>2015-10-08T19:26:54.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\holly.jpg">
+      <PackagePath>Assets\holly.jpg</PackagePath>
+      <Modified>2015-10-08T19:57:13.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\hollywood.jpg">
+      <PackagePath>Assets\hollywood.jpg</PackagePath>
+      <Modified>2015-10-07T19:43:02.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\islamabad.jpg">
+      <PackagePath>Assets\islamabad.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\karachi.jpg">
+      <PackagePath>Assets\karachi.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\lahore.jpg">
+      <PackagePath>Assets\lahore.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\latest_movie_news.jpg">
+      <PackagePath>Assets\latest_movie_news.jpg</PackagePath>
+      <Modified>2015-10-07T19:08:55.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\log.jpg">
+      <PackagePath>Assets\log.jpg</PackagePath>
+      <Modified>2015-10-08T19:46:17.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\logg.jpg">
+      <PackagePath>Assets\logg.jpg</PackagePath>
+      <Modified>2015-10-08T20:12:11.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\business.jpg">
+      <PackagePath>Assets\business.jpg</PackagePath>
+      <Modified>2015-09-28T00:51:28.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\medium_tile.jpg">
+      <PackagePath>Assets\medium_tile.jpg</PackagePath>
+      <Modified>2015-09-28T00:54:53.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\men_hairs.jpg">
+      <PackagePath>Assets\men_hairs.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:03.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\money.jpg">
+      <PackagePath>Assets\money.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\national.jpg">
+      <PackagePath>Assets\national.jpg</PackagePath>
+      <Modified>2015-09-28T01:05:44.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\nationall.jpg">
+      <PackagePath>Assets\nationall.jpg</PackagePath>
+      <Modified>2015-09-28T00:52:52.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\nba.jpg">
+      <PackagePath>Assets\nba.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:18.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\newspaper.jpg">
+      <PackagePath>Assets\newspaper.jpg</PackagePath>
+      <Modified>2015-10-08T19:20:45.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\newz.jpg">
+      <PackagePath>Assets\newz.jpg</PackagePath>
+      <Modified>2015-10-08T19:37:52.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\new_york_times_health.jpg">
+      <PackagePath>Assets\new_york_times_health.jpg</PackagePath>
+      <Modified>2015-10-07T19:44:35.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\nhl.jpg">
+      <PackagePath>Assets\nhl.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:18.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\pakistan.jpg">
+      <PackagePath>Assets\pakistan.jpg</PackagePath>
+      <Modified>2015-10-08T21:58:34.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\peshawar.jpg">
+      <PackagePath>Assets\peshawar.jpg</PackagePath>
+      <Modified>2015-09-28T00:59:55.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\preview.jpg">
+      <PackagePath>Assets\preview.jpg</PackagePath>
+      <Modified>2015-10-07T19:51:15.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\release.jpg">
+      <PackagePath>Assets\release.jpg</PackagePath>
+      <Modified>2015-10-07T19:43:02.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\review.jpg">
+      <PackagePath>Assets\review.jpg</PackagePath>
+      <Modified>2015-10-07T19:43:02.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\rugby.jpg">
+      <PackagePath>Assets\rugby.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:18.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\Rugby_league.jpg">
+      <PackagePath>Assets\Rugby_league.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:18.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\shoes.jpg">
+      <PackagePath>Assets\shoes.jpg</PackagePath>
+      <Modified>2015-10-08T19:39:03.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\snooker.jpg">
+      <PackagePath>Assets\snooker.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:19.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\space.jpg">
+      <PackagePath>Assets\space.jpg</PackagePath>
+      <Modified>2015-09-28T00:51:28.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\spor.jpg">
+      <PackagePath>Assets\spor.jpg</PackagePath>
+      <Modified>2015-10-07T17:25:22.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\sport.jpg">
+      <PackagePath>Assets\sport.jpg</PackagePath>
+      <Modified>2015-09-28T00:57:13.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\tech.jpg">
+      <PackagePath>Assets\tech.jpg</PackagePath>
+      <Modified>2015-09-28T00:51:28.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\tenn.jpg">
+      <PackagePath>Assets\tenn.jpg</PackagePath>
+      <Modified>2015-10-07T19:02:19.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\tennis.jpg">
+      <PackagePath>Assets\tennis.jpg</PackagePath>
+      <Modified>2015-09-28T00:16:32.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\top.jpg">
+      <PackagePath>Assets\top.jpg</PackagePath>
+      <Modified>2015-09-28T00:41:38.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\topi.jpg">
+      <PackagePath>Assets\topi.jpg</PackagePath>
+      <Modified>2015-09-28T00:53:07.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\topst.jpg">
+      <PackagePath>Assets\topst.jpg</PackagePath>
+      <Modified>2015-10-07T19:43:02.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\uk.jpg">
+      <PackagePath>Assets\uk.jpg</PackagePath>
+      <Modified>2015-10-08T21:58:34.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\us.jpg">
+      <PackagePath>Assets\us.jpg</PackagePath>
+      <Modified>2015-09-28T00:57:13.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\we-icon.jpg">
+      <PackagePath>Assets\we-icon.jpg</PackagePath>
+      <Modified>2015-10-07T19:01:28.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\weat.jpg">
+      <PackagePath>Assets\weat.jpg</PackagePath>
+      <Modified>2015-10-07T17:25:22.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\weath.jpg">
+      <PackagePath>Assets\weath.jpg</PackagePath>
+      <Modified>2015-10-07T17:27:35.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\wide_tiles.jpg">
+      <PackagePath>Assets\wide_tiles.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-28T00:44:01.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\world.jpg">
+      <PackagePath>Assets\world.jpg</PackagePath>
+      <Modified>2015-09-28T00:51:28.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\w_back.jpg">
+      <PackagePath>Assets\w_back.jpg</PackagePath>
+      <Modified>2015-10-07T17:25:22.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\x2.jpg">
+      <PackagePath>Assets\x2.jpg</PackagePath>
+      <Modified>2015-10-08T20:02:56.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\backg %281%29.png">
+      <PackagePath>Assets\backg %281%29.png</PackagePath>
+      <Modified>2015-09-28T00:20:29.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\live_score.png">
+      <PackagePath>Assets\live_score.png</PackagePath>
+      <Modified>2015-10-07T19:02:18.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\logss.png">
+      <PackagePath>Assets\logss.png</PackagePath>
+      <Modified>2015-10-09T08:50:15.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\mlb.png">
+      <PackagePath>Assets\mlb.png</PackagePath>
+      <Modified>2015-10-07T19:02:18.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\new.png">
+      <PackagePath>Assets\new.png</PackagePath>
+      <Modified>2015-10-08T19:46:00.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\splash.png">
+      <PackagePath>Assets\splash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-08T19:27:19.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2015-09-28T00:13:44.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2015-09-28T00:58:29.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\entertainment.xaml">
+      <PackagePath>entertainment.xaml</PackagePath>
+      <Modified>2015-10-09T09:02:30.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\fact.xaml">
+      <PackagePath>fact.xaml</PackagePath>
+      <Modified>2015-10-08T20:10:54.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\global.xaml">
+      <PackagePath>global.xaml</PackagePath>
+      <Modified>2015-10-09T09:02:30.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\health.xaml">
+      <PackagePath>health.xaml</PackagePath>
+      <Modified>2015-10-09T09:02:30.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2015-10-09T09:16:46.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\national.xaml">
+      <PackagePath>national.xaml</PackagePath>
+      <Modified>2015-10-09T09:02:30.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\national_rss.xaml">
+      <PackagePath>national_rss.xaml</PackagePath>
+      <Modified>2015-10-08T20:14:14.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\news_stand.xaml">
+      <PackagePath>news_stand.xaml</PackagePath>
+      <Modified>2015-10-09T08:54:27.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\sports.xaml">
+      <PackagePath>sports.xaml</PackagePath>
+      <Modified>2015-10-09T09:06:21.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\weather.xaml">
+      <PackagePath>weather.xaml</PackagePath>
+      <Modified>2015-10-09T08:54:28.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\word\Word Hamza\Widows store apps\News_Stand\News_Stand\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-09T11:54:46.868</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

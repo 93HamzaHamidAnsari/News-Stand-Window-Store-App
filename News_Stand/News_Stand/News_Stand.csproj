@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ED4BD18-324B-4408-A95B-C10F4E6E0728}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>News_Stand</RootNamespace>
+    <AssemblyName>News_Stand</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>News_Stand_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="entertainment.xaml.cs">
+      <DependentUpon>entertainment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="fact.xaml.cs">
+      <DependentUpon>fact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="global.xaml.cs">
+      <DependentUpon>global.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="grid_clas.cs" />
+    <Compile Include="health.xaml.cs">
+      <DependentUpon>health.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="national.xaml.cs">
+      <DependentUpon>national.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="national_rss.xaml.cs">
+      <DependentUpon>national_rss.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="news_stand.xaml.cs">
+      <DependentUpon>news_stand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rsss.cs" />
+    <Compile Include="Service References\my_weather_web_service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="sports.xaml.cs">
+      <DependentUpon>sports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="weather.xaml.cs">
+      <DependentUpon>weather.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="News_Stand_TemporaryKey.pfx" />
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+    <None Include="Service References\my_weather_web_service\globalweather.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\africa.jpg" />
+    <Content Include="Assets\arab.jpg" />
+    <Content Include="Assets\article.jpg" />
+    <Content Include="Assets\asia.jpg" />
+    <Content Include="Assets\backg %281%29.png" />
+    <Content Include="Assets\bbc_health.jpg" />
+    <Content Include="Assets\break.jpg" />
+    <Content Include="Assets\breaking.jpg" />
+    <Content Include="Assets\cri.jpg" />
+    <Content Include="Assets\crick.jpg" />
+    <Content Include="Assets\cricket.jpg" />
+    <Content Include="Assets\dres.jpg" />
+    <Content Include="Assets\edu.jpg" />
+    <Content Include="Assets\ent.jpg" />
+    <Content Include="Assets\entrt.jpg" />
+    <Content Include="Assets\europe.jpg" />
+    <Content Include="Assets\f1.jpg" />
+    <Content Include="Assets\facts.jpg" />
+    <Content Include="Assets\fas.jpg" />
+    <Content Include="Assets\fashion-and-beauty.jpg" />
+    <Content Include="Assets\fashion.jpg" />
+    <Content Include="Assets\fasio.jpg" />
+    <Content Include="Assets\foot.jpg" />
+    <Content Include="Assets\fotbal.jpg" />
+    <Content Include="Assets\general_hairs.jpg" />
+    <Content Include="Assets\global.jpg" />
+    <Content Include="Assets\americas.jpg" />
+    <Content Include="Assets\globe.jpg" />
+    <Content Include="Assets\golf.jpg" />
+    <Content Include="Assets\gulf.jpg" />
+    <Content Include="Assets\hair.jpg" />
+    <Content Include="Assets\health.jpg" />
+    <Content Include="Assets\hol.jpg" />
+    <Content Include="Assets\holly.jpg" />
+    <Content Include="Assets\hollywood.jpg" />
+    <Content Include="Assets\islamabad.jpg" />
+    <Content Include="Assets\karachi.jpg" />
+    <Content Include="Assets\lahore.jpg" />
+    <Content Include="Assets\latest_movie_news.jpg" />
+    <Content Include="Assets\live_score.png" />
+    <Content Include="Assets\log.jpg" />
+    <Content Include="Assets\logg.jpg" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\business.jpg" />
+    <Content Include="Assets\logss.png" />
+    <Content Include="Assets\medium_tile.jpg" />
+    <Content Include="Assets\men_hairs.jpg" />
+    <Content Include="Assets\mlb.png" />
+    <Content Include="Assets\money.jpg" />
+    <Content Include="Assets\national.jpg" />
+    <Content Include="Assets\nationall.jpg" />
+    <Content Include="Assets\nba.jpg" />
+    <Content Include="Assets\new.png" />
+    <Content Include="Assets\newspaper.jpg" />
+    <Content Include="Assets\newz.jpg" />
+    <Content Include="Assets\new_york_times_health.jpg" />
+    <Content Include="Assets\nhl.jpg" />
+    <Content Include="Assets\pakistan.jpg" />
+    <Content Include="Assets\peshawar.jpg" />
+    <Content Include="Assets\preview.jpg" />
+    <Content Include="Assets\release.jpg" />
+    <Content Include="Assets\review.jpg" />
+    <Content Include="Assets\rugby.jpg" />
+    <Content Include="Assets\Rugby_league.jpg" />
+    <Content Include="Assets\shoes.jpg" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\snooker.jpg" />
+    <Content Include="Assets\space.jpg" />
+    <Content Include="Assets\splash.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\spor.jpg" />
+    <Content Include="Assets\sport.jpg" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\tech.jpg" />
+    <Content Include="Assets\tenn.jpg" />
+    <Content Include="Assets\tennis.jpg" />
+    <Content Include="Assets\top.jpg" />
+    <Content Include="Assets\topi.jpg" />
+    <Content Include="Assets\topst.jpg" />
+    <Content Include="Assets\uk.jpg" />
+    <Content Include="Assets\us.jpg" />
+    <Content Include="Assets\we-icon.jpg" />
+    <Content Include="Assets\weat.jpg" />
+    <Content Include="Assets\weath.jpg" />
+    <Content Include="Assets\wide_tiles.jpg" />
+    <Content Include="Assets\world.jpg" />
+    <Content Include="Assets\w_back.jpg" />
+    <Content Include="Assets\x2.jpg" />
+    <None Include="Service References\my_weather_web_service\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\my_weather_web_service\configuration.svcinfo" />
+    <None Include="Service References\my_weather_web_service\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="entertainment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="fact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="global.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="health.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="national.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="national_rss.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="news_stand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="weather.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\my_weather_web_service\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

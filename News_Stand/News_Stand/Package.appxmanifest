@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="eeec901c-a634-414d-9bc2-8a49d7fa616a" Publisher="CN=hamza" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>News_Stand</DisplayName>
+    <PublisherDisplayName>hamza</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="News_Stand.App">
+      <VisualElements DisplayName="News_Stand" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="News_Stand" ForegroundText="light" BackgroundColor="#4682B4">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\wide_tiles.jpg" />
+        <SplashScreen Image="Assets\splash.png" BackgroundColor="#F0F8FF" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

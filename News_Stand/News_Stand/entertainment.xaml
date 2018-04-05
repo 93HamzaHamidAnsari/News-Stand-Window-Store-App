@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="News_Stand.entertainment"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:News_Stand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.Resources>
+		<Storyboard x:Name="entertainment_storyboard">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Page.Resources>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel>
+                <Button  Style="{StaticResource PreviousAppBarButtonStyle}" Click="backs" Height="67" />
+                <Button  Style="{StaticResource HomeAppBarButtonStyle}" Click="homes" Margin="75,-68,0,15" Height="67"/>
+
+                <Button  Style="{StaticResource NextAppBarButtonStyle}" Click="nexts" Margin="145,-83,0,15" Height="64"/>
+                <Button  Style="{StaticResource OutAppBarButtonStyle}" Click="exits" Margin="215,-80,0,15" Height="65" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" Source="Assets/holly.jpg" Stretch="UniformToFill" PointerPressed="searching" Loaded="page_open"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Entertainment" VerticalAlignment="Top" Height="81" Width="597" FontSize="72" FontFamily="Rockwell Extra Bold" Foreground="#FFF16B0F" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,96,0,0" TextWrapping="Wrap" Text="Hollywood" VerticalAlignment="Top" Height="45" Width="191" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="322,96,0,0" TextWrapping="Wrap" Text="Bollywood" VerticalAlignment="Top" Height="45" Width="184" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="583,96,0,0" TextWrapping="Wrap" Text="Fashion" VerticalAlignment="Top" Height="45" Width="218" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black"/>
+        <GridView x:Name="holly_list" HorizontalAlignment="Left" Margin="0,155,0,0" VerticalAlignment="Top" Width="274" Height="613" ItemsSource="{Binding}" Loaded="open_holly" SelectionChanged="when_holly_select">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Width="185" Height="100" Source="{Binding Path=image}" Stretch="Fill"/>
+                        <TextBlock Height="40" Width="185" Text="{Binding desc}" FontFamily="Segoe UI Black" Foreground="#FFF02F10" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <GridView x:Name="bolly_grid" HorizontalAlignment="Left" Margin="322,155,0,0" VerticalAlignment="Top" Width="245" Height="613" ItemsSource="{Binding}" Loaded="open_bolly" SelectionChanged="when_bolly_select">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Width="185" Height="100" Source="{Binding Path=image}" Stretch="Fill"/>
+                        <TextBlock Height="40" Width="185" Text="{Binding desc}" FontFamily="Segoe UI Black" Foreground="#FFF02F10" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <GridView x:Name="fashion_grid" HorizontalAlignment="Left" Margin="583,155,0,0" VerticalAlignment="Top" Width="783" Height="613" ItemsSource="{Binding}" Loaded="open_fashion" SelectionChanged="when_select_fashion">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Width="185" Height="100" Source="{Binding Path=image}" Stretch="Fill"/>
+                        <TextBlock Height="40" Width="185" Text="{Binding desc}" FontFamily="Segoe UI Black" Foreground="#FFF02F10" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <Image HorizontalAlignment="Left" Height="137" Margin="558,-23,0,0" VerticalAlignment="Top" Width="523" Source="Assets/logss.png" Stretch="UniformToFill"/>
+
+    </Grid>
+</Page>

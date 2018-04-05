@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="News_Stand.top_story"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:News_Stand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel>
+                <Button x:ConnectionId='1'  Style="{StaticResource PreviousAppBarButtonStyle}"               Height="67" />
+                <Button x:ConnectionId='2'  Style="{StaticResource HomeAppBarButtonStyle}"               Margin="75,-68,0,15" Height="67"/>
+
+                <Button x:ConnectionId='3'  Style="{StaticResource NextAppBarButtonStyle}"               Margin="145,-83,0,15" Height="64"/>
+                <Button x:ConnectionId='4'  Style="{StaticResource OutAppBarButtonStyle}"               Margin="215,-80,0,15" Height="65" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+        <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/backg (1).png" Stretch="UniformToFill"/>
+        <ListView x:ConnectionId='5' x:Name="list" HorizontalAlignment="Left" Height="758" VerticalAlignment="Top" Width="399"               ItemsSource="{Binding}"                               >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding title}" FontSize="24" Margin="5,0,0,0" TextWrapping="Wrap"/>
+                        <TextBlock Text="{Binding author}" FontSize="16" Margin="15,0,0,0" TextWrapping="Wrap"/>
+                        <TextBlock Text="{Binding pubdate}" FontSize="16" Margin="15,0,0,0" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <WebView x:Name="web" HorizontalAlignment="Left" Height="758" Margin="399,0,0,0" VerticalAlignment="Top" Width="634"/>
+    </Grid>
+</Page>
+
